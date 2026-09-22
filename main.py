@@ -12,10 +12,7 @@ from router.auth import get_current_user
 
 from fastapi.middleware.cors import CORSMiddleware
 
-app = FastAPI(
-    title='City Complaint & Service Request Management Platform',
-    version='1.0.0'
-)
+app = FastAPI()
 
 origins = ['*']
 
